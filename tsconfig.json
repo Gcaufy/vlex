@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "es2017",
-        "outDir": "./build",
+        "outDir": "./dist",
         "allowJs": false,
         "module": "commonjs",
         "noImplicitAny": true, /* Raise error on expressions and declarations with an implied 'any' type. */
