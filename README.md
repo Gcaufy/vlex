@@ -15,6 +15,8 @@ npm install vlex --save
 ```
 import Vlex from 'vlex';
 
+const vlex = new Vlex();
+
 vlex.parse('hello {{ world }}', { world: 'vlex'}); // return hello vlex
 vlex.parse('vlex: a + 1', { a: 1 }); // return 2
 ```
