@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "outDir": "./build",
+        "allowJs": false,
+        "module": "commonjs",
+        "noImplicitAny": true, /* Raise error on expressions and declarations with an implied 'any' type. */
+        "strictFunctionTypes": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "noUnusedLocals": true,
+        "skipLibCheck": true,
+        "declaration": true,
+        "lib": [
+            "es2017",
+            "es2016",
+            "es2015.promise"
+        ],
+        "baseUrl": "./"
+    },
+    "include": [
+        "./**/*",
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+        "test_output"
+    ]
+}
