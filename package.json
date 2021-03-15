@@ -1,6 +1,6 @@
 {
   "name": "vlex",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vue like Expression",
   "main": "dist/src/index.js",
   "directories": {
@@ -70,6 +70,6 @@
   "dependencies": {
     "vue-template-compiler": "^2.6.12"
   },
-  "_id": "vlex@0.0.2",
-  "_commitid": "4c9973a"
+  "_id": "vlex@0.0.3",
+  "_commitid": "f3d00c3"
 }
